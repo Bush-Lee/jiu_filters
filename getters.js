@@ -7,7 +7,7 @@ async function getColOptions() {
       redirect: 'follow'
    }
 
-   var url = "http://localhost:8081/col_options.json"
+   var url = "https://bush-lee.github.io/jiu_filters/static/col_options.json"
    const response = await fetch(url, requestOptions)
    const data = await response.json()
    
@@ -23,7 +23,7 @@ async function getColDescription() {
       redirect: 'follow'
    }
 
-   var url = "http://localhost:8081/col_description.json"
+   var url = "https://bush-lee.github.io/jiu_filters/static/col_description.json"
    const response = await fetch(url, requestOptions)
    const data = await response.json()
    
@@ -39,10 +39,9 @@ async function getAllFiles() {
       redirect: 'follow'
    }
 
-   var url = "http://localhost:8081/all_files.json"
+   var url = "https://bush-lee.github.io/jiu_filters/static/all_files.json"
    const response = await fetch(url, requestOptions)
    const data = await response.json()
-   
    
    return data
 }
