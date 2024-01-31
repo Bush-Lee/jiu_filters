@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"reflect"
+	"regexp"
 	"strings"
 )
 
@@ -100,12 +101,22 @@ func writeJSON(path string, filename string, data interface{}) {
 }
 
 func convertToCorrectType(posibleList string) interface{} {
-	posibleList = strings.Replace(posibleList, "\n", " ", -1)
-	posibleList = strings.Replace(posibleList, "\r", " ", -1)
+	posibleList = removeRedundantWhitespace(posibleList)
 	if strings.Contains(posibleList, ";") {
-		return strings.Split(posibleList, ";")
+		result := strings.Split(posibleList, ";")
+		for index, res := range result {
+			result[index] = removeRedundantWhitespace(res)
+		}
+		return result
 	}
 	return posibleList
+}
+
+func removeRedundantWhitespace(input string) string {
+	re := regexp.MustCompile(`\s+`)
+	result := re.ReplaceAllString(strings.TrimSpace(input), " ")
+
+	return result
 }
 
 func genDocuments(csvData [][]string) []Document {
@@ -114,29 +125,29 @@ func genDocuments(csvData [][]string) []Document {
 		for index, row := range csvData {
 			switch index {
 			case 0:
-				row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
-
+				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
+				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Obiectiv_politica = row[index_col]
 			case 1:
-				row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
-
+				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
+				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Titlu = row[index_col]
 			case 2:
-				row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
-
+				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
+				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Prioritate_nr = row[index_col]
 			case 3:
-				row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
-
+				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
+				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Prioritate_denumire = row[index_col]
 			case 4:
-				row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
-
+				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
+				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Obiectivul_specific = row[index_col]
 			case 5:
 				documente[index_col].Activitati_finante = convertToCorrectType(row[index_col])
@@ -151,9 +162,9 @@ func genDocuments(csvData [][]string) []Document {
 			case 10:
 				documente[index_col].Provocari = convertToCorrectType(row[index_col])
 			case 11:
-				row[index_col] = strings.Replace(row[index_col], "\n", "", -1)
-				row[index_col] = strings.Replace(row[index_col], "\r", "", -1)
-
+				// row[index_col] = strings.Replace(row[index_col], "\n", "", -1)
+				// row[index_col] = strings.Replace(row[index_col], "\r", "", -1)
+				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Link = row[index_col]
 			}
 		}
