@@ -53,7 +53,7 @@
               <button class="btn btn-success" x-on:click="
                   $store.data.next_option();
                   $store.data.get_form_options();
-                  console.log($store.data.current_option_index)
+
                 ">
                 Next
               </button>
@@ -61,7 +61,7 @@
 
             <template x-if="$store.data.current_option_index == $store.data.col_options.length - 2">
               <button class="btn btn-success"
-                x-on:click="$store.data.next_option();$store.data.get_form_options();console.log($store.data.col_options);">
+                x-on:click="$store.data.next_option();$store.data.get_form_options();">
                 Results
               </button>
             </template>
