@@ -6,7 +6,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
-const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWlferwOudNFwTBRNNSbZgdOZrfovhCKH5Kb83gfNQt0VVkIW8gH8VvVqKBuPIXxmKk_mZBBdsw_OA/pub?output=csv"
+// const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWlferwOudNFwTBRNNSbZgdOZrfovhCKH5Kb83gfNQt0VVkIW8gH8VvVqKBuPIXxmKk_mZBBdsw_OA/pub?output=csv"
+const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRuS3ElvxXQnCqnddPgYxOIMiuthx8UmlTAVJMDRkfjXq4AZJuRvwRn2rGqG9q7E-b_5AnHGTMafM4j/pub?gid=0&single=true&output=csv"
 
 var generateCmd = &cobra.Command{
 	Use:   "run",
@@ -23,7 +24,8 @@ func init() {
 
 	generateCmd.Flags().IntP("port", "p", 8081, "Port to run the server on")
 	generateCmd.Flags().StringP("url", "u", CSV_URL, "URL to get data from")
-	generateCmd.Flags().StringP("static", "s", "./static/", "Static folder location")
+	generateCmd.Flags().StringP("folder_path", "f", "./static/", "Static folder path")
+	generateCmd.Flags().BoolP("data", "d", false, "Get data only")
 }
 
 func runServer(cmd *cobra.Command, args []string) {
@@ -37,7 +39,7 @@ func runServer(cmd *cobra.Command, args []string) {
 
 	}
 
-	static_path, err := cmd.Flags().GetString("static")
+	static_path, err := cmd.Flags().GetString("folder_path")
 	if err != nil {
 
 	}
@@ -47,5 +49,7 @@ func runServer(cmd *cobra.Command, args []string) {
 	}
 
 	logic.GenStaticFolder(url, static_path)
-	logic.StartServer(static_path, port)
+	if dataOnly, _ := cmd.Flags().GetBool("data"); !dataOnly {
+		logic.StartServer(static_path, port)
+	}
 }

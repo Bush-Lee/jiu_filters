@@ -1,179 +1,24 @@
 [
     {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Investiții productive",
+        "Titlu": "Organizații și infrastructuri de CDI",
         "Prioritate_nr": "Prioritatea 1",
         "Prioritate_denumire": "Regiune inovatoare și competitivă",
         "Obiectivul_specific": "Creșterea competitivității și productivității IMM-urilor",
         "Activitati_finante": [
-            "Investiții în construcții industriale",
-            "Dotare cu active corporale (ex. echipamente tehnologice, utilaje, instalații de lucru, mobilier) și active necorporale (ex. brevete, licențe, aplicații și programe informatice)",
-            "Internaționalizare, certificări",
-            "Introducerea sau adoptarea de tehnologii verzi",
-            "Activități care respectă principiul economiei circulare"
+            "Activități în vederea dezvoltării ecosistemului regional de inovare, accelerării transferului tehnologic în conformitate cu cerințele pieței, schimbului de cunoștințe și întăririi culturii și capacităților organizaționale",
+            "Investiții în active fixe și necorporale, legate direct de activități de inovare și cercetare aplicată, disruptivă, cu valoare adăugată, în domeniile de specializare inteligentă regională",
+            "Achiziționarea de soluții tehnice rezultate din activități de cercetare, cu scopul de a dezvolta sau adopta soluții inovatoare în conformitate cu cerințele consumatorilor și tranziția către industria 4.0 și 5.0",
+            "Activități care să susțină și să accelereze integrarea actorilor regionali în lanțurile de valori specifice."
         ],
-        "Beneficiari_eligibili": [
-            "Microîntreprinderi (0-9 angajați) cu sediul social și locația de implementare în Regiunea Vest, în mediul urban și în stațiunile turistice atestate",
-            "Intreprinderi mici (10-49 angajați) cu sediul social și locația de implementare în Regiunea Vest, în mediul urban și în stațiunile turistice atestate",
-            "Intreprinderi mijlocii (50-249 angajați) cu sediul social și locația de implementare în Regiunea Vest, în mediul urban și în stațiunile turistice atestate",
-            "Întreprinderi mici și mijlocii non-agricole din mediul rural."
-        ],
-        "Beneficiari_finali": "",
-        "Indicatori": [
-            "Întreprinderi care beneficiază de sprijin prin granturi",
-            "Locuri de muncă create",
-            "IMM-uri cu o valoare adăugată mai mare per angajat – creștere față de anul anterior începerii proiectului",
-            "IMM-uri care introduc inovații în materie de produse, servicii și procese",
-            "IMM-uri care introduc inovații în materie de comercializare sau organizare."
-        ],
-        "Beneficii": "",
-        "Provocari": "",
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/11/Investitii-productive-IMM.pdf"
+        "Beneficiari_eligibili": "Parteneriate formate din minim 1 IMM și organizații/infrastructuri de cercetare și alte întreprinderi (inclusiv întreprinderi mari).",
+        "Beneficiari_finali": "Actorii ecosistemului regional de inovare și populația Regiunii Vest",
+        "Indicatori": "Organizații de cercetare care participă la proiecte de cercetare comune Cercetători care lucrează în centre de cercetare care beneficiază de sprijin Valoarea nominală a echipamentelor pentru cercetare și inovare Întreprinderi care cooperează cu organizații de cercetare Întreprinderi care beneficiază de sprijin prin granturi Locuri de muncă create în domeniul cercetării în entitățile care beneficiază de sprijin Investiții private care completează sprijinul public IMM-uri care introduc inovații în materie de produse sau procese Publicații ale proiectelor care beneficiază de sprijin Cereri de brevete depuse",
+        "Beneficii": "Reducerea decalajului de inovare regional/dezvoltarea ecosistemului regional de inovare Conectarea actorilor locali la lanțurile de valori internaționale prin implicarea lor în activități cu valoare adăugată ridicată în cele șase domenii de specializare inteligentă Facilitarea transferului de cunoștințe dintre mediul academic și de cercetare către mediul privat și în beneficiul administrației publice Consolidarea bazei materiale publice de cercetare, în corelare cu nevoile pieței și aliniate dublei tranziții, verde și digitală",
+        "Provocari": "Transfer scăzut al rezultatelor cercetării și inovării în piață Slaba capacitate de inovare de proces și de produs a IMM-urilor Capacitate limitată a actorilor locali de a se asocia în lanțurile de valori specifice Slaba conectare a cererii cu oferta de produse și servicii Slaba cooperare a întreprinderilor cu mediul academic și de cercetare, astfel încât transferul de cunoștințe să aibă loc",
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/sprijin-pentru-organizatii-de-cercetare-dezvoltare-inovare",
+        "Data_stabilita": "Aprilie 2025"
     },
     {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Intreprinderi noi",
-        "Prioritate_nr": "Prioritatea 1",
-        "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Creșterea competitivității și productivității IMM-urilor",
-        "Activitati_finante": [
-            "Achizitia de echipamente tehnologie, utilaje de instalatii de lucru, mobilier",
-            "Achizitia de active necorporale (ex brevete, licente, programe informatice) servicii suport de tip consiliere, mentoring coaching"
-        ],
-        "Beneficiari_eligibili": [
-            "Intreprinderi nou create in judetul hunedoara (0-9 angajati)",
-            "Intreprinderi nou create in judetul Caras-Serverin (0-9 angajati)"
-        ],
-        "Beneficiari_finali": "",
-        "Indicatori": [
-            "Intreprinderi nou infiintate, in judetul Hunedoara, care beneficiaza de sprijin nerambursabil",
-            "Intreprinderi nou infiintate, in judetul Caras-Severin, care beneficiaza de sprijin nerambursabil",
-            "Locuri de munca nou create, intreprindrei noi aflate inca pe piata cel putin inca un an de la data finalizarii proiectului"
-        ],
-        "Beneficii": "",
-        "Provocari": "",
-        "Link": "https://adrvest.ro/wp-content/uploads/2023/02/Intreprinderi-noi_02.02.2023.pdf"
-    },
-    {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Instrumente financiare",
-        "Prioritate_nr": "Prioritatea 1",
-        "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Creșterea competitivității și productivității IMM-urilor",
-        "Activitati_finante": [
-            "Vor fi finanțate investițiile corporale și necorporale, capitalul de lucru dar și orice alte acțiuni care permit implementarea planului de afaceri, pe baza căruia va fi posibilă creșterea rapidă a valorii businessului și internaționalizarea afacerii",
-            "Finanțarea se va face prin două instrumente: Instrument de capital de risc de accelerare a afacerilor Instrument de venture capital. (Accelerator combinat cu grant și fond seed)"
-        ],
-        "Beneficiari_eligibili": [
-            "Pentru instrumentul de accelerare a afacerilor: Start-up-uri care au nevoie de infuzie de capital pentru dezvoltarea produselor și serviciilor inovative proprii",
-            "Pentru venture capital: IMM-uri cu produse și servicii inovative și/sau care utilizează tehnologii noi și care au potențial mare de creștere și de internaționalizare."
-        ],
-        "Beneficiari_finali": "",
-        "Indicatori": [
-            "Intreprinderi nou infiintate, in judetul Hunedoara, care beneficiaza de sprijin nerambursabil",
-            "Intreprinderi nou infiintate, in judetul Caras-Severin, care beneficiaza de sprijin nerambursabil",
-            "Locuri de munca nou create, intreprindrei noi aflate inca pe piata cel putin inca un an de la data finalizarii proiectului"
-        ],
-        "Beneficii": [
-            "Instrumentele financiare vor finanța IMM-urile prin investiții de capital de risc (equity) care reprezintă capitalul financiar oferit companiilor cu risc ridicat și potențial crescut de dezvoltare, în schimbul dreptului de proprietate asupra unei părți echivalente din capitalul întreprinderii respective",
-            "Cererile de finanțare vor fi adresate Fondurilor Manager conform regulilor și cerințelor acestora",
-            "Selectarea Fondurilor Manager de către Autoritatea de Management PR Vest se va realiza prin achiziție publică: Fondul Manager este o entitate privată care ia toate deciziile de investiții cu diligența unui manager profesionist cu bună credință și este independent din punct de vedere economic și juridic de Autoritatea de Management",
-            "Finanțarea se va face pe baza unei cereri de finanțare elaborată conform solicitării Fondului Manager. Investiția în equity furnizată și partea de capital solicitată în schimb va fi negociată cu Fondul Manager, caz cu caz. Rambursarea finanțării se va face în baza unei strategii de ieșire (exit) propusă încă din momentul semnării contractului de finanțare (achiziția înapoi de către IMM a părții de capital, achiziția de către altă companie sau fond de investiții a acelei părți de capital sau a întregii companii, listarea la bursa de valori sau pe piața alternativă AeRO).În compartimentul de pre accelerare vor fi furnizate servicii de instruire și mentorat pentru consolidarea capacității IMM-urilor de a dezvolta produse și modele de business și de a acumula cunoștințele care să le permită o creștere rapidă și a facilita accesul la o finanțare ulterioară."
-        ],
-        "Provocari": "",
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/11/Instrumente-financiare.pdf"
-    },
-    {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Digitalizare IMM",
-        "Prioritate_nr": "Prioritatea 1",
-        "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Valorificarea avantajelor digitalizării, în beneficiul cetățenilor, al companiilor, al organizațiilor de cercetare și al autorităților publice",
-        "Activitati_finante": [
-            "Achiziția de echipamente hardware TIC",
-            "Achiziția de licențe",
-            "Investiții în aplicații particularizate, inclusiv soluții de automatizare",
-            "Servicii pentru securitate cibernetică",
-            "Platforme online de comercializare",
-            "Servicii de găzduire și stocare",
-            "Utilizarea tehnologiilor moderne ex. blockchain, big data, realitate virtuală",
-            ""
-        ],
-        "Beneficiari_eligibili": "IMM-uri din Regiunea Vest.",
-        "Beneficiari_finali": "",
-        "Indicatori": [
-            "IMM-uri care ating un nivel ridicat de digitalizare ca urmare a serviciilor și produselor achiziționate",
-            "Valoarea serviciilor a produselor și a proceselor digitale dezvoltate pentru întreprinderi",
-            "Utilizatori de servicii, produse și procese digitale, noi și optimizate, dezvoltate de întreprinderi."
-        ],
-        "Beneficii": "Digitalizarea este asociată cu o mai bună performanță a IMM-urilor în termeni de productivitate, practici de management, inovare, creștere și locuri de muncă mai bine remunerate.",
-        "Provocari": "",
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/11/Digitalizare-IMM.pdf"
-    },
-    {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Digitalizare servicii publice",
-        "Prioritate_nr": "Prioritatea 1",
-        "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Valorificarea avantajelor digitalizării, în beneficiul cetățenilor, al companiilor, al organizațiilor de cercetare și al autorităților publice",
-        "Activitati_finante": [
-            "Achiziția de echipamente hardware TIC",
-            "Achiziția de licențe",
-            "Investiții în aplicații particularizate, inclusiv soluții de automatizare",
-            "Servicii pentru securitate cibernetică",
-            "Platforme online de comercializare",
-            "Servicii de găzduire și stocare",
-            "Utilizarea tehnologiilor moderne ex. blockchain, big data, realitate virtuală",
-            ""
-        ],
-        "Beneficiari_eligibili": "IMM-uri din Regiunea Vest.",
-        "Beneficiari_finali": "",
-        "Indicatori": [
-            "IMM-uri care ating un nivel ridicat de digitalizare ca urmare a serviciilor și produselor achiziționate",
-            "Valoarea serviciilor a produselor și a proceselor digitale dezvoltate pentru întreprinderi",
-            "Utilizatori de servicii, produse și procese digitale, noi și optimizate, dezvoltate de întreprinderi."
-        ],
-        "Beneficii": [
-            "Digitalizarea presupune ca autoritățile publice să ofere serviciile proprii la o calitate mai bună, prin intermediul internetului, fără a fi necesară deplasarea la un ghișeu",
-            "Digitalizarea aduce multiple beneficii sectorului public. O instituție digitalizată este mai transparentă, mai corectă, capabilă să gestioneze și să coreleze informații mai rapid și eficient."
-        ],
-        "Provocari": "",
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/11/Digitalizare-servicii-publice.pdf"
-    },
-    {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Agenția Regională de Inovare Vest",
-        "Prioritate_nr": "Prioritatea 1",
-        "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Dezvoltarea competențelor pentru specializare inteligentă",
-        "Activitati_finante": [
-            "Operaționalizarea Agenției Regionale de Inovare (ARI) Vest prin sprijinirea unor activități specifice: Organizarea de întâlniri de descoperire antreprenorială",
-            "Monitorizarea și evaluarea politicilor regionale de inovare",
-            "Elaborarea, implementarea și monitorizarea Strategiei RIS3",
-            "Efectuarea unei analize teritoriale a ecosistemului de inovare",
-            "Pregătirea Agendei Regionale de Inovare",
-            "Inventarierea și promovarea nevoilor și oportunităților din domeniul competențelor legate de inovare",
-            "Alcătuirea unui portofoliu de experți tematici capabili să ofere sprijin procesului de generare, selectare sau implementare de proiecte inovatoare la nivel regional, de ex. vouchere de inovare",
-            "Furnizarea de servicii suport și de consultanță pentru inovare",
-            "Dezvoltarea conceptuală a celor 4 Centre de Creativitate și Inovare."
-        ],
-        "Beneficiari_eligibili": "Ecosistemul de inovare și cetățenii din Regiunea Vest",
-        "Beneficiari_finali": "",
-        "Indicatori": [
-            "Participarea părților interesate la procese de descoperire antreprenorială",
-            "Contribuții/acțiuni de consolidare a ecosistemului regional de inovare."
-        ],
-        "Beneficii": [
-            "Îmbunătățirea condițiilor cadru pentru activități CDI la nivel regional",
-            "Coagularea ecosistemului de inovare regional și creșterea relevanței acestuia față de cerințele pieței",
-            "Dezvoltarea unui portofoliu regional de competențe de inovare",
-            "Realizarea de recomandări de politici publice – din perspectiva rolului de catalizator și regulator de piață și de sistem, incluzând elemente de sustenabilitate."
-        ],
-        "Provocari": "",
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/11/Agentia-Regionala-de-Inovare-Vest.pdf"
-    },
-    {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
         "Titlu": "Centre de creativitate și inovare",
         "Prioritate_nr": "Prioritatea 1",
         "Prioritate_denumire": "Regiune inovatoare și competitivă",
@@ -196,54 +41,12 @@
             "Publicații ale proiectelor care beneficiază de sprijin",
             "Cereri de brevete depuse"
         ],
-        "Beneficii": [
-            "Accelerarea transferului de cunoștințe și abilități de CDI către utilizatorii finali",
-            "Stimularea creativității și inovării",
-            "Creșterea capacității mediului academic și organizațiilor de cercetare de a se conecta la nevoile sectorului de afaceri, în vederea generării unor procese și produse inovative în domeniile de specializare inteligentă regionale",
-            "Crearea de parteneriate între mediul academic, de cercetare și cel de afaceri."
-        ],
-        "Provocari": [
-            "Colaborarea redusă între mediul academic și de cercetare și mediul privat",
-            "Capacitatea redusă de inovare a întreprinderilor",
-            "Impactul redus al transferului de cunoștințe către mediul de afaceri și necorelarea cererii cu oferta",
-            "Număr redus de entități de inovare și transfer tehnologic (EITT) implicate activ în activitatea de transfer tehnologic."
-        ],
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/11/CCI.pdf"
+        "Beneficii": "Accelerarea transferului de cunoștințe și abilități de CDI către utilizatorii finali Stimularea creativității și inovării Creșterea capacității mediului academic și organizațiilor de cercetare de a se conecta la nevoile sectorului de afaceri, în vederea generării unor procese și produse inovative în domeniile de specializare inteligentă regionale Crearea de parteneriate între mediul academic, de cercetare și cel de afaceri",
+        "Provocari": "Colaborarea redusă între mediul academic și de cercetare și mediul privat Capacitatea redusă de inovare a întreprinderilor Impactul redus al transferului de cunoștințe către mediul de afaceri și necorelarea cererii cu oferta Număr redus de entități de inovare și transfer tehnologic (EITT) implicate activ în activitatea de transfer tehnologic",
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/operationalizare-centre-de-creativitate-si-inovare",
+        "Data_stabilita": "August 2024"
     },
     {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Dezvoltare competențe",
-        "Prioritate_nr": "Prioritatea 1",
-        "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Dezvoltarea competențelor pentru specializare inteligentă, tranziție industrială și antreprenoriat",
-        "Activitati_finante": [
-            "Îmbunătățirea competențelor în domeniile de specializare inteligentă, cum ar fi: Abilități tehnice: necesare pentru rezolvarea problemelor inovative, proiectarea, operarea, îmbunătățirea și întreținerea utilajelor și a structurilor care încorporează noi tehnologii digitale avansate, abilități profesionale de IT",
-            "Abilități de management inovativ: legate de planificarea afacerii în contextul i4.0 și i.5.0, respectarea reglementărilor și controlul calității, planificarea resurselor umane și alocării eficiente a resurselor în activități inovative",
-            "Abilităţi creative: utile pentru activități de inovare, în crearea de produse noi cu valoare adăugată, în a experimenta în afara normelor convenţionale şi a transforma diverse probleme sociale şi economice în oportunităţi antreprenoriale",
-            "Abilități antreprenoriale pentru firme inovatoare, în special în sectorul high-tech: specifice pentru companii noi, cum ar fi crearea unui plan de afaceri sustenabil, acceptarea și gestionarea riscurilor, gândirea strategică, capacitatea de a crea rețele noi, capacitatea de a face față provocărilor și cerințelor noi legate de tranziţia către i4.0 și i5.0",
-            "Abilități ecologice (green): specifice pentru a genera sau modifica produse, servicii şi procese în conformitate cu principiile economiei circulare e.g. reciclează, reutilizează, reprelucrează, şi a nevoii de adaptare continuă la schimbările climatice, respectiv a reglementărilor privind schimbările climatice."
-        ],
-        "Beneficiari_eligibili": "IMM-urile din Regiunea Vest și angajații acestora din domeniile de specializare inteligentă.",
-        "Beneficiari_finali": "Actorii publici și privați ai sistemului de inovare, IMM-urile și angajații acestora, organizațiile de tip cluster, autoritățile publice, intermediari, organizațiile de educație și formare, instituțiile de cercetare private și publice.",
-        "Indicatori": [
-            "IMM-uri care investesc în competențe pentru specializarea inteligentă, pentru tranziția industrială și antreprenoriat",
-            "Angajați din IMM-uri care finalizează programe de formare a competențelor pentru specializare inteligentă, pentru tranziție industrială și antreprenoriat (pe tip de competențe: tehnice, de management, de antreprenoriat, ecologice, altele)."
-        ],
-        "Beneficii": [
-            "Evoluția tehnologiilor, provocările mondiale și demografice ne influențează modul în care lucrăm, învățăm, participăm la dezvoltarea societății și ne trăim viața de zi cu zi. Dacă dispun de competențele adecvate, cetățenii se adaptează mai ușor la aceste schimbări și se bucură de bunăstare. Impactul pozitiv se resimte și asupra societății, productivității și creșterii economice",
-            "Dezvoltarea competențelor profesionale este necesară pentru a facilita procesul de tranziție industrială, inclusiv capacitatea IMM-urilor de a inova la nivel intern și de a se angaja în parteneriate de inovare",
-            "Este necesară adaptarea capitalului uman la noile realități profesionale apărute ca urmare a pandemiei de COVID 19"
-        ],
-        "Provocari": [
-            "Tranziția verde și cea digitală redefinesc modul în care trăim, lucrăm și interacționăm și necesită o schimbare în aria de competențe pentru a valorifica pe deplin potențialul acestora",
-            "Nevoia adaptării capitalului uman la procesul de tranziție industrială către i4.0 și i5.0 și în conformitate cu evoluțiile impuse de Pactul Verde European și celelalte politici europene relevante",
-            "Fenomenele \"Brain drain\" și nevoia de a convinge capitalul uman activ în CDI să rămână în regiune",
-            "Nevoia capitalului de a avansa pe scara pregătirii profesionale (upskilling), în special în contextul schimbărilor structurale care au loc pe piața muncii ca urmare a pandemiei de COVID 19."
-        ],
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/11/Dezvoltare-competente.pdf"
-    },
-    {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
         "Titlu": "Clustere de inovare",
         "Prioritate_nr": "Prioritatea 1",
         "Prioritate_denumire": "Regiune inovatoare și competitivă",
@@ -252,49 +55,22 @@
             "Valorificarea resurselor comune existente sau noi, inclusiv de CDI, pentru a genera produse, procese și servicii inovative",
             "Sprijinirea membrilor clusterelor pentru avansarea pe lanțurile valorice în domeniile tehnologiilor industriale avansate, economiei circulare sau tehnologiei digitale",
             "Organizarea de întâlniri tematice specifice, sesiuni de formare și dezvoltare de competențe, evenimente de benchmarking, matchmaking și alte seminarii, participarea la evenimente naționale și internaționale, angrenarea membrilor în activități de networking și schimburi de experiență",
-            "Facilitarea implementării de noi modele financiare, de planificare, de management și marketing la nivelul membrilor clusterelor.",
+            "Facilitarea implementării de noi modele financiare, de planificare, de management și marketing la nivelul membrilor clusterelor",
             ""
         ],
-        "Beneficiari_eligibili": "IMM-urile din Regiunea Vest și angajații acestora din domeniile de specializare inteligentă.",
-        "Beneficiari_finali": "Membrii clusterului.",
+        "Beneficiari_eligibili": "Entitatea juridică care asigură managementul clusterului de inovare (organizația clusterului)",
+        "Beneficiari_finali": "Membrii clusterului",
         "Indicatori": [
-            "IMM-uri care investesc în competențe pentru specializarea inteligentă, pentru tranziția industrială și antreprenoriat",
-            "Angajați din IMM-uri care finalizează programe de formare a competențelor pentru specializare inteligentă, pentru tranziție industrială și antreprenoriat (pe tip de competențe: tehnice, de management, de antreprenoriat, ecologice, altele).",
+            "Organizaţii de management a clusterului care beneficiază de sprijin",
+            "IMM-uri care introduc inovații în materie de produse sau procese",
+            "IMM-uri care introduc inovații în materie de comercializare sau organizare",
             ""
         ],
         "Beneficii": [
-            "Evoluția tehnologiilor, provocările mondiale și demografice ne influențează modul în care lucrăm, învățăm, participăm la dezvoltarea societății și ne trăim viața de zi cu zi. Dacă dispun de competențele adecvate, cetățenii se adaptează mai ușor la aceste schimbări și se bucură de bunăstare. Impactul pozitiv se resimte și asupra societății, productivității și creșterii economice",
-            "Dezvoltarea competențelor profesionale este necesară pentru a facilita procesul de tranziție industrială, inclusiv capacitatea IMM-urilor de a inova la nivel intern și de a se angaja în parteneriate de inovare",
-            "Este necesară adaptarea capitalului uman la noile realități profesionale apărute ca urmare a pandemiei de COVID 19",
-            ""
-        ],
-        "Provocari": "",
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/12/Clustere-de-inovare.pdf"
-    },
-    {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Inovare IMM",
-        "Prioritate_nr": "Prioritatea 1",
-        "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Dezvoltarea și creșterea capacităților de cercetare și inovare și adoptarea tehnologiilor avansate.",
-        "Activitati_finante": [
-            "Investiții în active fixe și necorporale,legate direct de activități de inovare și cercetare aplicată, disruptivă, cu valoare adăugată, în domeniile de specializare inteligentă regională",
-            "Achiziționarea de soluții tehnice rezultate din activități de cercetare, cu scopul de a dezvolta sau adopta soluții inovatoare in conformitate cu cerințele consumatorilor și tranziția către industria 4.0 și 5.0",
-            "Activități care să susțină și să accelereze integrarea actorilor regionali în lanțurile de valori specifice."
-        ],
-        "Beneficiari_eligibili": "IMM-uri din domeniile de specializare inteligentă – individual sau în parteneriat cu alte întreprinderi.",
-        "Beneficiari_finali": "Actorii ecosistemului regional de inovare și populația Regiunii Vest.",
-        "Indicatori": [
-            "Întreprinderi care beneficiază de sprijin prin granturi",
-            "Valoarea nominală a echipamentelor pentru cercetare și inovare",
-            "Întreprinderi mici și mijlocii (IMM-uri) care introduc inovații în materie de produse sau procese",
-            "IMM-uri care introduc inovații la nivel intern",
-            "Investiții private care completează sprijinul public."
-        ],
-        "Beneficii": [
-            "Acces la expertiza, echipamentele, laboratoarele din cadrul clusterelor, precum și la resurse umane specializate, cursuri de pregătire specializate etc.",
+            "Acces la expertiza, echipamentele, laboratoarele din cadrul clusterelor, precum și la resurse umane specializate, cursuri de pregătire specializate etc",
             "Cooperarea cu alte întreprinderi din cluster, universități, institute de cercetare, clienți, concurenți și furnizori",
-            "Dezvoltarea și/sau modernizarea facilităților comune în clustere, va conduce la creșterea capacităților de producție și îmbunătățirea tehnologiilor întreprinderilor"
+            "Dezvoltarea și/sau modernizarea facilităților comune în clustere, va conduce la creșterea capacităților de producție și îmbunătățirea tehnologiilor întreprinderilor",
+            ""
         ],
         "Provocari": [
             "Capacitatea scăzută a IMM-urilor de a colabora cu alte întreprinderi sau entități CDI în scopul inovării",
@@ -303,63 +79,51 @@
             "Contextul economic instabil",
             ""
         ],
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/12/Inovare-IMM.pdf"
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/clustere-de-inovare",
+        "Data_stabilita": "Martie 2025"
     },
     {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Organizații și infrastructuri de CDI",
+        "Titlu": "Sprijin pentru inovare: Inovare IMM",
         "Prioritate_nr": "Prioritatea 1",
         "Prioritate_denumire": "Regiune inovatoare și competitivă",
         "Obiectivul_specific": "Dezvoltarea și creșterea capacităților de cercetare și inovare și adoptarea tehnologiilor avansate.",
         "Activitati_finante": [
-            "Activități în vederea dezvoltării ecosistemului regional de inovare, accelerării transferului tehnologic în conformitate cu cerințele pieței, schimbului de cunoștințe și întăririi culturii și capacităților organizaționale",
-            "Investiții în active fixe și necorporale, legate direct de activități de inovare și cercetare aplicată, disruptivă, cu valoare adăugată, în domeniile de specializare inteligentă regională",
+            "Investiții în active fixe și necorporale,legate direct de activități de inovare și cercetare aplicată, disruptivă, cu valoare adăugată, în domeniile de specializare inteligentă regională",
             "Achiziționarea de soluții tehnice rezultate din activități de cercetare, cu scopul de a dezvolta sau adopta soluții inovatoare in conformitate cu cerințele consumatorilor și tranziția către industria 4.0 și 5.0",
-            "Activități care să susțină și să accelereze integrarea actorilor regionali în lanțurile de valori specifice.",
+            "Activități care să susțină și să accelereze integrarea actorilor regionali în lanțurile de valori specifice",
             ""
         ],
-        "Beneficiari_eligibili": "Parteneriate formate din minim 1 IMM și organizații/infrastructuri de cercetare și alte întreprinderi (inclusiv întreprinderi mari).",
-        "Beneficiari_finali": "Actorii ecosistemului regional de inovare și populația Regiunii Vest.",
+        "Beneficiari_eligibili": "IMM-uri din domeniile de specializare inteligentă – individual sau în parteneriat cu alte întreprinderi",
+        "Beneficiari_finali": "Actorii ecosistemului regional de inovare și populația Regiunii Vest",
         "Indicatori": [
-            "Organizații de cercetare care participă la proiecte de cercetare comune",
-            "Cercetători care lucrează în centre de cercetare care beneficiază de sprijin",
-            "Valoarea nominală a echipamentelor pentru cercetare și inovare",
-            "Întreprinderi care cooperează cu organizații de cercetare",
             "Întreprinderi care beneficiază de sprijin prin granturi",
-            "Locuri de muncă create în domeniul cercetării în entitățile care beneficiază de sprijin",
-            "Investiții private care completează sprijinul public",
-            "IMM-uri care introduc inovații în materie de produse sau procese",
-            "Publicații ale proiectelor care beneficiază de sprijin",
-            "Cereri de brevete depuse.",
-            ""
+            "Valoarea nominală a echipamentelor pentru cercetare și inovare",
+            "Întreprinderi mici și mijlocii (IMM-uri) care introduc inovații în materie de produse sau procese",
+            "IMM-uri care introduc inovații la nivel intern",
+            "Investiții private care completează sprijinul public."
         ],
         "Beneficii": [
-            "Reducerea decalajului de inovare regional/dezvoltarea ecosistemului regional de inovare",
-            "Conectarea actorilor locali la lanțurile de valori internaționale prin implicarea lor în activități cu valoare adăugată ridicată în cele șase domenii de specializare inteligentă",
-            "Facilitarea transferului de cunoștințe dintre mediul academic și de cercetare către mediul privat și în beneficiul administrației publice",
-            "Consolidarea bazei materiale publice de cercetare, în corelare cu nevoile pieței și aliniate dublei tranziții, verde și digitală.",
-            ""
+            "Derularea unor activități de inovare poate crește competitivitatea și productivitatea IMM-urilor și poate facilita avansarea spre activități cu valoare adăugată ridicată",
+            "Sprijinirea activităților de inovare și a departamentelor de CDI din cadrul IMMurilor va reduce decalajul existent în termeni de inovare și digitalizare: dezvoltarea și/sau adoptarea tehnologiilor avansate: block-chain, big data, cloud computing, IoT, producție avansată, robotică, inteligență artificială, securitate cibernetică, printare 3D, metode avansate de producție, tehnologii sustenabile și economie circulară, marketing sau inovație organizațională",
+            "Tehnologiile digitale schimbă imaginea industriei și creează noi modele de afaceri, ce permit industriei să fie mai productivă și să ofere lucrătorilor noi competențe."
         ],
         "Provocari": [
-            "Transfer scăzut al rezultatelor cercetării și inovării în piață",
-            "Slaba capacitate de inovare de proces și de produs a IMM-urilor",
-            "Capacitate limitată a actorilor locali de a se asocia în lanțurile de valori specifice",
-            "Slaba conectare a cererii cu oferta de produse și servicii",
-            "Slaba cooperare a întreprinderilor cu mediul academic și de cercetare, astfel încât transferul de cunoștințe să aibă loc.",
-            ""
+            "Apetit redus al IMM-urilor pentru activități inovative și de colaborare",
+            "Lipsa unor mecanisme care să stimuleze cererea IMM-urilor pentru inovare",
+            "Nivel redus al cheltuielilor de CDI angajate de IMM-uri",
+            "Regiunea Vest este în ultima grupă europeană de performanță la indicatori precum: adoptarea inovării în IMM-uri, IMM-uri colaborative în domeniul inovării, aplicații pentru patente și mărci"
         ],
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/12/Organizatii-CDI.pdf"
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/sprijin-pentru-inovare",
+        "Data_stabilita": "Martie 2025"
     },
     {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
-        "Titlu": "Transfer tehnologic",
+        "Titlu": "Sprijin pentru inovare: Transfer tehnologic",
         "Prioritate_nr": "Prioritatea 1",
         "Prioritate_denumire": "Regiune inovatoare și competitivă",
         "Obiectivul_specific": "Dezvoltarea și creșterea capacităților de cercetare și inovare și adoptarea tehnologiilor avansate.",
         "Activitati_finante": [
-            "Implementarea unui rezultat de cercetaredezvoltare-inovare (CDI) aflat la un nivel de maturitate tehnologică de minim TRL 4",
-            "Investiții pentru achiziția de dotări și echipamente, servicii de consultanță în domeniul inovării, care asigură posibilitatea implementării procesului de creare/adoptare a unei soluții inovatoare, bazată pe achiziționarea de cunoștințe/tehnologii rezultate din activități CDI derulate de organizații de cercetare, publice sau private.",
-            ""
+            "Implementarea unui rezultat de cercetare dezvoltare-inovare (CDI) aflat la un nivel de maturitate tehnologică de minim TRL 4",
+            "Investiții pentru achiziția de dotări și echipamente, servicii de consultanță în domeniul inovării, care asigură posibilitatea implementării procesului de creare/adoptare a unei soluții inovatoare, bazată pe achiziționarea de cunoștințe/tehnologii rezultate din activități CDI derulate de organizații de cercetare, publice sau private"
         ],
         "Beneficiari_eligibili": "IMM-uri din domeniile de specializare inteligentă – în parteneriat cu entități de cercetare (universități, institute de cercetare, entități de transfer tehnologic) sau cu întreprinderi mari.",
         "Beneficiari_finali": "Actorii ecosistemului regional de inovare și populația Regiunii Vest.",
@@ -371,50 +135,461 @@
         ],
         "Beneficii": [
             "Facilitarea transferului și difuzarea noilor tehnologii între organizații de cercetare și întreprinderi",
-            "Valorificarea rezultatelor CDI și consolidarea capacității de transfer tehnologic a ecosistemului regional de inovare, în corelare cu nevoile mediului de afaceri.",
+            "Valorificarea rezultatelor CDI și consolidarea capacității de transfer tehnologic a ecosistemului regional de inovare, în corelare cu nevoile mediului de afaceri",
             "Creșterea nivelului de profesionalizare a resursei umane implicată în activități CDI și transfer tehnologic",
             "Creșterea competitivității întreprinderilor, prin activități de inovare în cadrul acestora, inclusiv în domenii cheie pentru dubla tranziție verde și digitală",
             ""
         ],
         "Provocari": [
-            "Decalajul în materie de inovare la nivelul Regiunii Vest față de media UE",
-            "Cooperare redusă între IMM-uri și organizațiile de cercetare."
+            "Asigurarea sustenabilității organizațiilor de CDI, centrelor de transfer tehnologic (acces la resurse financiare, umane, logistice, dotări) și facilitarea accesului deschis a acestora către mediul de afaceri",
+            "Legătura redusă a organizațiilor CDI cu IMM-urile",
+            "Regiunea Vest este în ultima grupă europeană de performanță la indicatori precum: adoptarea inovării în IMM-uri, IMM-uri colaborative în domeniul inovării, aplicații pentru patente și mărci",
+            ""
         ],
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/12/Transfer-tehnologic.pdf"
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/sprijin-pentru-inovare",
+        "Data_stabilita": "Martie 2025"
     },
     {
-        "Obiectiv_politica": "1 O europa mai inteligenta",
         "Titlu": "Vouchere de inovare",
         "Prioritate_nr": "Prioritatea 1",
         "Prioritate_denumire": "Regiune inovatoare și competitivă",
-        "Obiectivul_specific": "Dezvoltarea și creșterea capacităților de cercetare și inovare și adoptarea tehnologiilor avansate",
+        "Obiectivul_specific": "Dezvoltarea și creșterea capacităților de cercetare și inovare și adoptarea tehnologiilor avansate.",
         "Activitati_finante": [
-            "Voucherul de inovare poate fi utilizat pentru următoarele tipuri de activități:Servicii de cercetare privind punerea în aplicare a ideilor inovatoare",
+            "Servicii de cercetare privind punerea în aplicare a ideilor inovatoare",
             "Dezvoltarea de algoritmi și metode noi",
             "Pregătirea și introducerea brevetelor în cadrul IMM-urilor",
             "Sprijin pentru dezvoltarea de prototipuri",
             "Concepte pentru managementul inovării tehnice",
             "Explorarea de noi tehnologii și noi idei de afaceri",
-            "Voucherul de inovare urmărește dezvoltarea de noi produse, procese, sau servicii prin care IMM-ul dobândește cunoștințe și competențe noi, cu accent pe economia cu emisii reduse de dioxid de carbon, pe reziliență, pe adaptarea la schimbările climatice și pe economia circulară.",
             ""
         ],
-        "Beneficiari_eligibili": "IMM-uri din Regiunea Vest, din domeniile de specializare inteligentă.",
-        "Beneficiari_finali": "Membrii ecosistemul de inovare și cetățenii din Regiunea Ves",
+        "Beneficiari_eligibili": "IMM-uri din Regiunea Vest, din domeniile de specializare inteligentă",
+        "Beneficiari_finali": "Membrii ecosistemul de inovare și cetățenii din Regiunea Vest",
         "Indicatori": [
             "Întreprinderi care beneficiază de sprijin prin granturi",
             "IMM-uri care introduc inovații în materie de produse sau procese",
-            "IMM-uri care introduc inovații în materie de comercializare sau organizare.",
+            "IMM-uri care introduc inovații în materie de comercializare sau organizare",
             ""
         ],
         "Beneficii": [
             "Voucherele de inovare permit IMM-urilor să intre într-o activitate continuă și mai intensă de cercetare și inovare",
             "Prin intermediul voucherelor de inovare se pot rezolva probleme punctuale de CDI și se pot implementa soluții cu potențial real pentru produse/servicii noi sau semnificativ îmbunătățite, cu impact în piață",
-            "Creșterea capacității și a disponibilității IMM-urilor de a coopera cu organizațiile de cercetare și inovare."
+            "Creșterea capacității și a disponibilității IMM-urilor de a coopera cu organizațiile de cercetare și inovare"
         ],
         "Provocari": [
             "Decalajul în materie de inovare la nivelul Regiunii Vest față de media UE",
-            "Cooperare redusă între IMM-uri și organizațiile de cercetare."
+            "Cooperare redusă între IMM-uri și organizațiile de cercetare"
         ],
-        "Link": "https://adrvest.ro/wp-content/uploads/2022/12/Vouchere-de-inovare.pdf"
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/vouchere-de-inovare",
+        "Data_stabilita": "Aprilie 2025"
+    },
+    {
+        "Titlu": "Digitalizare IMM",
+        "Prioritate_nr": "Prioritatea 1",
+        "Prioritate_denumire": "Regiune inovatoare și competitivă",
+        "Obiectivul_specific": "Valorificarea avantajelor digitalizării, în beneficiul cetățenilor, al companiilor, al organizațiilor de cercetare și al autorităților publice",
+        "Activitati_finante": [
+            "Achiziția de echipamente hardware TIC",
+            "Achiziția de licențe",
+            "Investiții în aplicații particularizate, inclusiv soluții de automatizare",
+            "Servicii pentru securitate cibernetică",
+            "Platforme online de comercializare",
+            "Servicii de găzduire și stocare",
+            "Utilizarea tehnologiilor moderne ex. blockchain, big data, realitate virtuală"
+        ],
+        "Beneficiari_eligibili": "IMM-uri din Regiunea Vest",
+        "Beneficiari_finali": "",
+        "Indicatori": [
+            "IMM-uri care ating un nivel ridicat de digitalizare ca urmare a serviciilor și produselor achiziționate Valoarea serviciilor a produselor și a proceselor digitale dezvoltate pentru întreprinderi",
+            "Utilizatori de servicii, produse și procese digitale, noi și optimizate, dezvoltate de întreprinderi",
+            ""
+        ],
+        "Beneficii": "Digitalizarea este asociată cu o mai bună performanță a IMM-urilor în termeni de productivitate, practici de management, inovare, creștere și locuri de muncă mai bine remunerate",
+        "Provocari": [
+            "Nivelul scăzut al performanței digitalizării",
+            "Acces dificil la finanțare",
+            "Competențe digitale de bază și / sau avansate reduse",
+            "Contextul economic instabil"
+        ],
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/digitalizare-imm",
+        "Data_stabilita": "Ianuarie 2025"
+    },
+    {
+        "Titlu": "Microîntreprinderi: Producție",
+        "Prioritate_nr": "Prioritatea 1",
+        "Prioritate_denumire": "Regiune inovatoare și competitivă",
+        "Obiectivul_specific": "Intensificarea creșterii sustenabile și creșterea competitivității IMM-urilor și crearea de locuri de muncă în cadrul IMM-urilor, inclusiv prin investiții productive",
+        "Activitati_finante": [
+            "Investiții în spații de producție de tip construcție industrială",
+            "Dotarea cu active corporale - echipamente tehnologice, utilaje, instalații de lucru, mobilier, inclusiv instalații/echipamente specifice în scopul obținerii unei economii de energie și active necorporale exclusiv legate de funcționarea mijloacelor fixe care se achiziționează",
+            "Activități pentru extinderea piețelor de vânzare, a gamei de produse și servicii oferite, precum și participarea la principalele canale și platforme de internaționalizare, inclusiv activități de marketing generate de codul CAEN finanțat",
+            "Activități din domeniul economiei circulare sau activități de dezvoltare de noi lanțuri de aprovizionare ecologice"
+        ],
+        "Beneficiari_eligibili": "Microîntreprinderile cu o vechime de minim 1 an fiscal integral și cu sediul social situat în Regiunea Vest sau care dețin un sediu secundar/punct de lucru în Regiunea Vest, înregistrat la Oficiul Național al Registrului Comerțului cel târziu la data de 31.12.2021",
+        "Beneficiari_finali": "",
+        "Indicatori": [
+            "Indicator de realizare: Întreprinderi care beneficiază de sprijin (din care: micro, mici, medii, mari)",
+            "Indicator de realizare: Întreprinderi care beneficiază de sprijin prin granturi Indicatori de rezultat: Locuri de muncă create în entitățile care beneficiază de sprijin",
+            "Indicatori de rezultat: IMM-uri care introduc inovații în materie de produse sau procese",
+            "Indicatori de rezultat: IMM-uri care introduc inovații în materie de comercializare sau organizare",
+            "Indicator specific: Produse inovative",
+            "Indicator specific: Servicii inovative",
+            "Indicator specific: Procese inovative",
+            "Indicator specific: Inovări de marketin",
+            "Indicator specific: Infrastructuri de agrement/activități recreative/activități sportive",
+            "Indicator specific: Infrastructuri de agrement/activități recreative/activități sportive – suprafață desfășurată",
+            "Indicator specific: Echipamente/dotări noi achiziționate",
+            "Indicator specific: Active necorporale achiziționate",
+            "Indicator specific: Participări la târguri și evenimente externe",
+            "Indicator specific: Participări la târguri și evenimente naționale",
+            "Indicator specific: Soluții de economie circulară implementate"
+        ],
+        "Beneficii": "",
+        "Provocari": [
+            "Nivel moderat de antreprenoriat: în Regiunea Vest se regăsesc 9% din totalul IMMurilor din România",
+            "Densitate redusă a IMM-urilor - 26 IMM-uri/1.000 de locuitori, față de media UE de 56 IMM-uri/1.000 de locuitori",
+            "Nivel scăzut de internaționalizare a IMM-urilor"
+        ],
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/digitalizare-imm",
+        "Data_stabilita": "1 Decembrie 2023"
+    },
+    {
+        "Titlu": "Microîntreprinderi: Servicii",
+        "Prioritate_nr": "Prioritatea 1",
+        "Prioritate_denumire": "Regiune inovatoare și competitivă",
+        "Obiectivul_specific": "Intensificarea creșterii sustenabile și creșterea competitivității IMM-urilor și crearea de locuri de muncă în cadrul IMM-urilor, inclusiv prin investiții productive",
+        "Activitati_finante": [
+            "Dotarea cu active corporale, inclusiv instalații/echipamente specifice în scopul obținerii unei economii de energie și active necorporale exclusiv legate de funcționarea mijloacelor fixe care se achiziționează",
+            "Construirea/extinderea de infrastructuri multifuncționale de agrement și fitness, pentru educație fizică și sport, inclusiv infrastructuri de tratament balnear, exclusiv în stațiunile turistice atestate și exclusiv pentru investițiile aferente codurilor CAEN cuprinse în cadrul punctului B al Anexei 19_Domenii de activitate eligibile la Ghidul solicitantului de finanțare",
+            "Activități pentru extinderea piețelor de vânzare, a gamei de produse și servicii oferite, precum și participarea la principalele canale și platforme de internaționalizare, inclusiv activități de marketing generate de codul CAEN finanțat",
+            "Activități din domeniul economiei circulare sau activități de dezvoltare de noi lanțuri de aprovizionare ecologice"
+        ],
+        "Beneficiari_eligibili": "Microîntreprinderile cu o vechime de minim 1 an fiscal integral și cu sediul social situat în Regiunea Vest sau care dețin un sediu secundar/punct de lucru în Regiunea Vest, înregistrat la Oficiul Național al Registrului Comerțului cel târziu la data de 31.12.2021",
+        "Beneficiari_finali": "",
+        "Indicatori": [
+            "Indicatori de realizare: Întreprinderi care beneficiază de sprijin (din care: micro, mici, medii, mari)",
+            "Indicatori de realizare: Întreprinderi care beneficiază de sprijin prin granturi",
+            "Indicatori de rezultat: Locuri de muncă create în entitățile care beneficiază de sprijin",
+            "Indicatori de rezultat: IMM-uri care introduc inovații în materie de produse sau procese",
+            "Indicatori de rezultat: IMM-uri care introduc inovații în materie de comercializare sau organizare",
+            "Indicator specific: Produse inovative",
+            "Indicator specific: Servicii inovative",
+            "Indicator specific: Procese inovative",
+            "Indicator specific: Inovări de marketing",
+            "Indicator specific: Infrastructuri de agrement/activități recreative/activități sportive",
+            "Indicator specific: Infrastructuri de agrement/activități recreative/activități sportive – suprafață desfășurată",
+            "Indicator specific: Echipamente/dotări noi achiziționate",
+            "Indicator specific: Active necorporale achiziționate",
+            "Indicator specific: Participări la târguri și evenimente externe",
+            "Indicator specific: Participări la târguri și evenimente naționale",
+            "Indicator specific: Soluții de economie circulară implementate"
+        ],
+        "Beneficii": "",
+        "Provocari": [
+            "Nivel moderat de antreprenoriat: în Regiunea Vest se regăsesc 9% din totalul IMM-urilor din România",
+            "Densitate redusă a IMM-urilor - 26 IMM-uri/1.000 de locuitori, față de media UE de 56 IMMuri/1.000 de locuitori",
+            "Nivel scăzut de internaționalizare a IMM-urilor."
+        ],
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/digitalizare-imm",
+        "Data_stabilita": "1 Decembrie 2023"
+    },
+    {
+        "Titlu": "Sprijin pentru IMM",
+        "Prioritate_nr": "Prioritatea 1",
+        "Prioritate_denumire": "Regiune inovatoare și competitivă",
+        "Obiectivul_specific": "Intensificarea creșterii sustenabile și creșterea competitivității IMM-urilor și crearea de locuri de muncă în cadrul IMM-urilor, inclusiv prin investiții productive",
+        "Activitati_finante": [
+            "Investiții în spații de producție de tip construcție industrială și spații pentru prestări servicii",
+            "Dotarea cu echipamente tehnologice, utilaje, instalații de lucru, mobilier, echipamente informatice, birotică, de natura mijloacelor fixe, instalații/echipamente specifice în scopul obținerii unei economii de energie Activități din domeniul economiei circulare/activități de dezvoltare de noi lanțuri de aprovizionare ecologice",
+            "Investiții în active necorporale, exclusiv legate de desfășurarea activității finanțate: brevete, licențe, mărci comerciale, programe informatice, alte drepturi şi active similare",
+            "Activități pentru extinderea piețelor de vânzare, a gamei de produse și servicii oferite, precum și participarea la principalele canale și platforme de internaționalizare, inclusiv dezvoltarea de activități de marketing",
+            "Certificare/recertificare a produselor, serviciilor sau diferitelor procese specifice"
+        ],
+        "Beneficiari_eligibili": [
+            "Microîntreprinderi (0-9 angajați) cu locația de implementare în mediul urban, inclusiv stațiunile turistice atestate din mediul urban sau rural",
+            "Întreprinderi mici (10-49 angajați) și mijlocii (50-249 angajați) cu locația de implementare în mediul urban sau rural, inclusiv în stațiunile turistice atestate",
+            ""
+        ],
+        "Beneficiari_finali": "",
+        "Indicatori": [
+            "Indicatori de realizare: Întreprinderi care beneficiază de sprijin (din care: micro, mici, medii, mari)",
+            "Indicatori de realizare: Întreprinderi care beneficiază de sprijin prin granturi",
+            "Indicatori de rezultat: Locuri de muncă create în entitățile care beneficiază de sprijin",
+            "Indicatori de rezultat: IMM-uri care introduc inovații în materie de produse sau procese",
+            "Indicatori de rezultat: IMM-uri cu o valoare adăugată mai mare per angajat",
+            "Indicator specific: Produse inovative",
+            "Indicator specific: Servicii inovative",
+            "Indicator specific: Procese inovative",
+            "Indicator specific: Procese inovative",
+            "Indicator specific: Construcții noi/ modernizate /extinse – suprafață desfășurată",
+            "Indicator specific: Infrastructuri de agrement/activități recreative/activități sportive",
+            "Indicator specific: Infrastructuri de agrement/activități recreative/activități sportive – suprafață desfășurată",
+            "Indicator specific: Echipamente/dotări noi achiziționate",
+            "Indicator specific: Echipamente/dotări specifice achiziționate în scopul obținerii unei economii de energie Indicator specific: Active necorporale achiziționate",
+            "Indicator specific: Participări la târguri și evenimente externe",
+            "Indicator specific: Participări la târguri și evenimente naționale Indicator specific: Contracte noi pe piețe externe Indicator specific: Contracte noi pe piețe naționale Indicator specific: Certificare/recertificare a produselor, serviciilor sau diferitelor procese specifice Indicator specific: Certificare/recertificare a sistemelor de management al calității, mediului, sănătății, etc"
+        ],
+        "Beneficii": "",
+        "Provocari": [
+            "Nivel moderat de antreprenoriat: în Regiunea Vest se regăsesc 9% din totalul IMM-urilor din România",
+            "Utilizare redusă a tehnologiilor avansate și a inovării la nivelul IMM-urilor",
+            "Densitate redusă a IMM-urilor în Regiunea Vest față de media UE: 26 IMM-uri/1.000 de locuitori raportat la 56 IMM-uri/1.000 de locuitori",
+            ""
+        ],
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/sprijin-pentru-imm",
+        "Data_stabilita": "Iulie 2024"
+    },
+    {
+        "Titlu": "Intreprinderi noi",
+        "Prioritate_nr": "Prioritatea 1",
+        "Prioritate_denumire": "Regiune inovatoare și competitivă",
+        "Obiectivul_specific": "Creșterea competitivității și productivității IMM-urilor",
+        "Activitati_finante": [
+            "Achiziția de echipamente tehnologice, utilaje, instalații de lucru, mobilier",
+            "Achiziția de active necorporale (ex. brevete, licențe, programe informatice)",
+            "Servicii suport de tip: consiliere, mentoring, coaching",
+            ""
+        ],
+        "Beneficiari_eligibili": "Întreprinderi nou create în județul Hunedoara, din mediul urban",
+        "Beneficiari_finali": "",
+        "Indicatori": [
+            "Întreprinderi nou înființate, în județul Hunedoara, care beneficiază de sprijin nerambursabil",
+            "Locuri de muncă nou create",
+            "Întreprinderi noi aflate încă pe piață, cel puțin încă un an de la data finalizării proiectului"
+        ],
+        "Beneficii": "Achiziția de noi echipamente și tehnologii reprezintă premisele pentru dezvoltarea capacității productive, dar și o oportunitate de a inova",
+        "Provocari": [
+            "Nivelul moderat de antreprenoriat",
+            "Densitate redusă a IMM-urilor",
+            "Contextul economic instabil"
+        ],
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/Intreprinderi-nou-infiintate",
+        "Data_stabilita": "Ianuarie 2025"
+    },
+    {
+        "Titlu": "Instrumente financiare",
+        "Prioritate_nr": "Prioritatea 1",
+        "Prioritate_denumire": "Regiune inovatoare și competitivă",
+        "Obiectivul_specific": "Creșterea competitivității și productivității IMM-urilor",
+        "Activitati_finante": [
+            "Investiții corporale și necorporale, capitalul de lucru dar și orice alte acțiuni care permit implementarea planului de afaceri, pe baza căruia va fi posibilă creșterea rapidă a valorii business-ului și internaționalizarea afacerii",
+            "Finanțarea se va face prin două instrumente: Instrument de capital de risc de accelerare a afacerilor (Accelerator combinat cu grant și fond seed) și instrument de venture capital"
+        ],
+        "Beneficiari_eligibili": [
+            "Pentru instrumentul de accelerare a afacerilor: Start-up-uri care au nevoie de infuzie de capital pentru dezvoltarea produselor și serviciilor inovative proprii",
+            "Pentru venture capital: IMM-uri cu produse și servicii inovative și/sau care utilizează tehnologii noi și care au potențial mare de creștere și de internaționalizare"
+        ],
+        "Beneficiari_finali": "",
+        "Indicatori": [
+            "Întreprinderi care beneficiază de sprijin prin instrumente financiare",
+            "Locuri de muncă create",
+            "IMM-uri care introduc inovații în materie de produse sau procese",
+            "IMM-uri cu o valoarea adăugată mai mare per angajat"
+        ],
+        "Beneficii": [
+            "Instrumentele financiare propuse furnizează finanțare pentru dezvoltarea companiilor care în mod normal nu sunt considerate eligibile pentru finanțare bancară sau pentru care finanțarea bancară nu este suficientă În timp ce utilizarea unui credit presupune rambursarea acestuia în rate periodice cu dobândă, finanțarea prin equity presupune sume mari de bani puse la dispoziția companiei pentru a se dezvolta fără obligația de rambursare, până la ieșirea din finanțare (exit)",
+            "Finanțarea prin equity oferă condițiile necesare pentru concentrarea tuturor resurselor pentru creșterea afacerii și atingerea obiectivelor Implicarea Fondului Manager se traduce în transfer de know-how și operațiuni mai eficiente, consolidând expertiza în management, oferind îmbunătățiri operaționale și ajutând companiile să acceseze noi piețe În accelerator, antreprenorii beneficiază, pe lângă investiții financiare, de acces la mentori (experți în industrie), asistență în construirea produsului și modelului de afaceri, posibilitatea de a atrage alți investitori prin prezentarea la „zile demo”, participare ulterioară la evenimente de networking locale și internaționale",
+            "Creșterea ratingului de credit și deci îmbunătățirea condițiilor pentru obținerea altor credite",
+            "Diversificarea surselor de finanțare",
+            "Creșterea fluxului de numerar disponibil pentru companii."
+        ],
+        "Provocari": [
+            "Întreprinderile din regiune sunt specializate în domenii cu valoare adăugată scăzută și medie. Sunt puține companii inovative sau specializate în domenii economice de vârf",
+            "Rata de supraviețuire a IMM-urilor din regiune redusă față de nivelul național",
+            "Numărul întreprinderilor cu creștere mare este redus și în continuă scădere",
+            "Firmele din regiune sunt puțin familiarizate cu instrumentele financiare",
+            "Firmele nu au cunoștințe suficiente pentru prezentarea companiei astfel încât să devină interesantă pentru fondurile de capital de risc"
+        ],
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/instrumente-financiare",
+        "Data_stabilita": "Iulie 2024"
+    },
+    {
+        "Titlu": "Competențe pentru inovare",
+        "Prioritate_nr": "Prioritatea 1",
+        "Prioritate_denumire": "Regiune inovatoare și competitivă",
+        "Obiectivul_specific": "Dezvoltarea competențelor pentru specializare inteligentă, tranziție industrială și antreprenoriat",
+        "Activitati_finante": "Îmbunătățirea competențelor în domeniile de specializare inteligentă",
+        "Beneficiari_eligibili": "IMM-urile din Regiunea Vest și angajații acestora din domeniile de specializare inteligentă.",
+        "Beneficiari_finali": "Actorii publici și privați ai sistemului de inovare, IMM-urile și angajații acestora, organizațiile de tip cluster, autoritățile publice, intermediari, organizațiile de educație și formare, instituțiile de cercetare private și publice",
+        "Indicatori": [
+            "IMM-uri care investesc în competențe pentru specializarea inteligentă, pentru tranziția industrială și antreprenoriat",
+            "Angajați din IMM-uri care finalizează programe de formare a competențelor pentru specializare inteligentă, pentru tranziție industrială și antreprenoriat (pe tip de competențe: tehnice, de management, de antreprenoriat, ecologice, altele)"
+        ],
+        "Beneficii": [
+            "Dacă dispun de competențele adecvate, cetățenii se adaptează mai ușor la aceste schimbări și se bucură de bunăstare. Impactul pozitiv se resimte și asupra societății, productivității și creșterii economice",
+            "Dezvoltarea competențelor profesionale este necesară pentru a facilita procesul de tranziție industrială, inclusiv capacitatea IMM-urilor de a inova la nivel intern și de a se angaja în parteneriate de inovare",
+            "Este necesară adaptarea capitalului uman la noile realități profesionale apărute ca urmare a pandemiei de COVID 19."
+        ],
+        "Provocari": [
+            "Tranziția verde și cea digitală redefinesc modul în care trăim, lucrăm și interacționăm și necesită o schimbare în aria de competențe pentru a valorifica pe deplin potențialul acestora",
+            "Nevoia adaptării capitalului uman la procesul de tranziție industrială către i4.0 și i5.0 și în conformitate cu evoluțiile impuse de Pactul Verde European și celelalte politici europene relevante",
+            "Fenomenele \"Brain drain\" și nevoia de a convinge capitalul uman activ în CDI să rămână în regiune",
+            "Nevoia capitalului de a avansa pe scara pregătirii profesionale (upskilling), în special în contextul schimbărilor structurale care au loc pe piața muncii ca urmare a pandemiei de COVID 19"
+        ],
+        "Link": "https://www.vest.ro/prioritatea-1-regiune-inovatoare-si-competitiva/competente-pentru-inovare",
+        "Data_stabilita": "Februarie 2026"
+    },
+    {
+        "Titlu": "Apel P2/1.1.A.1/2023 - Investiții pentru care se acordă granturi de până la 2.000.000 EUR",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Investiții pentru dezvoltarea întreprinderilor mici și mijlocii care sprijină creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara (nonITI)",
+        "Beneficiari_eligibili": "Întreprinderil mici și mijlocii din regiunea RO423-Hunedoara",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://mfe.gov.ro/ghidul-solicitantului-pentru-actiunea-dezvoltarea-intreprinderilor-si-a-antreprenoriatului-componenta-investitii-pentru-dezvoltarea-imm-care-sprijina-cresterea-dur-2/",
+        "Data_stabilita": "20 Martie 2024"
+    },
+    {
+        "Titlu": "Apel P2/1.1.A.2/2023 - Investiții pentru care se acordă granturi de până la 5.000.000 EUR",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Investiții pentru dezvoltarea întreprinderilor mici și mijlocii care sprijină creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara (nonITI)",
+        "Beneficiari_eligibili": "Întreprinderil mici și mijlocii din regiunea RO423-Hunedoara",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://mfe.gov.ro/ghidul-solicitantului-pentru-actiunea-dezvoltarea-intreprinderilor-si-a-antreprenoriatului-componenta-investitii-pentru-dezvoltarea-imm-care-sprijina-cresterea-dur-2/",
+        "Data_stabilita": "20 Martie 2024"
+    },
+    {
+        "Titlu": "Apel P2/1.2.A.1/2023 - Sprijin pentru dezvoltarea microîntreprinderilor",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Sprijin de până la 200.000 EUR pentru creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara’’ (nonITI)",
+        "Beneficiari_eligibili": "Microîntreprinderi din regiunea RO423-Hunedoara",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 3/2026"
+    },
+    {
+        "Titlu": "Apel P2/1.2.A.2/2023 - Sprijin pentru dezvoltarea întreprinderilor sociale",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Sprijin de până la 200.000 EUR pentru creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara’’ (nonITI)",
+        "Beneficiari_eligibili": "Microîntreprinderi din regiunea RO423-Hunedoara",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 3/2026"
+    },
+    {
+        "Titlu": "Apel P2/ 2 - Sprijn pentru infrastructura de afaceri (nonITI)",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Investiții pentru dezvoltarea infrastructurii de afaceri pentru IMM-uri care sprijină creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara",
+        "Beneficiari_eligibili": "IMM/parteneriat cu instituții de învățământ sperior, UAT-uri (județ, municipii, orașe, comune) din regiunea RO423-Hunedoara",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 4/2023"
+    },
+    {
+        "Titlu": "Apel P2/ 1.3 - Sprijin pentru intreprinderile de tip spin-off si spin-out si a start-upurilor (nonITI)",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Sprijin de până la 200.000 EUR pentru creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara",
+        "Beneficiari_eligibili": "întreprinderi de tip spin-off și spin-out, start-up-uri din regiunea RO423-Hunedoara",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 4/2023"
+    },
+    {
+        "Titlu": "Apel P2/1.1.B.1/2023 - Investiții în microregiunea Valea Jiului",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara ITI VALEA JIULUI",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Investiții pentru dezvoltarea întreprinderilor mici și mijlocii care sprijină creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara (ITI)",
+        "Beneficiari_eligibili": "Întreprinderil mici și mijlocii din regiunea RO423 - ITI Valea Jiului",
+        "Beneficiari_finali": "Întreprinderil mici și mijlocii din regiunea RO423 - ITI Valea Jiului, înființate cel târziu la data de 31 decembrie 2021, cu un număr mediu de salariați de cel puțin 1, în anul fiscal anterior deschiderii apelului de proiecte",
+        "Indicatori": [
+            "Indicator de realizare: Număr de participanți la cursurile de formare / perfecționare / recalificare",
+            "Indicator de realizare: Număr de participanți la cursurile de formare / perfecționare / recalificare angajați de întreprinderile care au realizat investiții productive în IMM",
+            "Indicator de rezultat: Locuri de muncă create în entitățile care beneficiază de sprijin",
+            "Indicator suplimentar: Locuri de munca create pentru persoane direct afectate de procesul de tranziție",
+            "Indicator suplimentar: Locuri de munca create pentru persoanele din celelalte categorii defavorizate",
+            "Indicator suplimentar: Realizarea unei investiții inițiale definite în conformitate cu prevederile ajutorului de stat regional",
+            "Indicator suplimentar: Creșterea valorii cifrei de afaceri față de nivelul înregistrat în ultimul an fiscal încheiat înainte de depunerea cererii de finanțare",
+            "Indicator suplimentar: Participanți care au un loc de muncă, inclusiv care desfășoară o activitate independentă, la încetarea calității de participant"
+        ],
+        "Beneficii": "Crearea de noi locuri de muncă durabile din perspectiva obiectivelor de mediu",
+        "Provocari": "Nevoi de investiții definite la nivelul planurilor teritoriale pentru o tranziție justă (PTTJ),",
+        "Link": "https://mfe.gov.ro/ghidul-solicitantului-pentru-actiunea-dezvoltarea-intreprinderilor-si-a-antreprenoriatului-componenta-investitii-pentru-dezvoltarea-imm-care-sprijina-cresterea-dur-2/",
+        "Data_stabilita": "20 Martie 2024"
+    },
+    {
+        "Titlu": "Apel P2/1.2.B.1/2023 - Sprijin pentru dezvoltarea microîntreprinderilor în microregiunea Valea Jiului",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara ITI VALEA JIULUI",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Sprijin de până la 200.000 EUR care sprijină pentru creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara",
+        "Beneficiari_eligibili": "Microîntreprinderi din regiunea RO423 - ITI Valea Jiului",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 3/2026"
+    },
+    {
+        "Titlu": "Apel P2/1.2.B.2/2023 - Sprijin pentru dezvoltarea întreprinderilor sociale în microregiunea Valea Jiului",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara ITI VALEA JIULUI",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Sprijin de până la 200.000 EUR care sprijină pentru creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara",
+        "Beneficiari_eligibili": "Microîntreprinderi din regiunea RO423 - ITI Valea Jiului",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 3/2026"
+    },
+    {
+        "Titlu": "Apel P2/ 2 - Sprijn pentru infrastructura de afaceri (ITI)",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara ITI VALEA JIULUI",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Investiții pentru dezvoltarea infrastructurii de afaceri pentru IMM-uri care sprijină creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara",
+        "Beneficiari_eligibili": "IMM/parteneriat cu instituții de învățământ sperior, UAT-uri (județ, municipii, orașe, comune) din regiunea RO423 - ITI Valea Jiului",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 4/2023"
+    },
+    {
+        "Titlu": "Apel P2/ 1.3 - Sprijin pentru intreprinderile de tip spin-off si spin-out si a start-upurilor (ITI)",
+        "Prioritate_nr": "Prioritatea 2 Hunedoara ITI VALEA JIULUI",
+        "Prioritate_denumire": "IMM și antreprenoriat",
+        "Obiectivul_specific": "OS FTJ",
+        "Activitati_finante": "Sprijin de până la 200.000 EUR pentru creșterea durabilă și crearea de locuri de muncă în Județul Hunedoara",
+        "Beneficiari_eligibili": "Întreprinderi de tip spin-off și spin-out, start-up-uri din regiunea RO423 - ITI Valea Jiului",
+        "Beneficiari_finali": "Conform Ghid / încă nu este lansat",
+        "Indicatori": "Conform Ghid / încă nu este lansat",
+        "Beneficii": "Conform Ghid / încă nu este lansat",
+        "Provocari": "Conform Ghid / încă nu este lansat",
+        "Link": "https://adrvest.ro/programul-tranzitie-justa_ghiduri-active/",
+        "Data_stabilita": "trim 4/2023"
     }
 ]

@@ -1,6 +1,5 @@
 [
     {
-        "Obiectiv_politica": "Obiectivul de politica",
         "Titlu": "Titlu",
         "Prioritate_nr": "Prioritate",
         "Prioritate_denumire": "Prioritate keyword",
@@ -11,6 +10,7 @@
         "Indicatori": "Indicatori",
         "Beneficii": "Beneficii",
         "Provocari": "Provocari",
-        "Link": "Link"
+        "Link": "Link",
+        "Data_stabilita": "Dată stabilită / estimată închidere apel"
     }
 ]

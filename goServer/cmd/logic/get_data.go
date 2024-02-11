@@ -19,7 +19,6 @@ const COL_DESCRIPTION string = "col_description.json"
 const COL_OPTIONS string = "col_options.json"
 
 type Document struct {
-	Obiectiv_politica     string
 	Titlu                 string
 	Prioritate_nr         string
 	Prioritate_denumire   string
@@ -31,10 +30,10 @@ type Document struct {
 	Beneficii             interface{}
 	Provocari             interface{}
 	Link                  string
+	Data_stabilita        string
 }
 
 type DocumentList struct {
-	Obiectiv_politica     []string
 	Titlu                 []string
 	Prioritate_nr         []string
 	Prioritate_denumire   []string
@@ -45,6 +44,7 @@ type DocumentList struct {
 	Indicatori            []string
 	Beneficii             []string
 	Provocari             []string
+	Data_stabilita        []string
 }
 
 type GeneralDocument interface {
@@ -125,45 +125,33 @@ func genDocuments(csvData [][]string) []Document {
 		for index, row := range csvData {
 			switch index {
 			case 0:
-				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
-				row[index_col] = removeRedundantWhitespace(row[index_col])
-				documente[index_col].Obiectiv_politica = row[index_col]
-			case 1:
-				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
 				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Titlu = row[index_col]
-			case 2:
-				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+			case 1:
 				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Prioritate_nr = row[index_col]
-			case 3:
-				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+			case 2:
 				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Prioritate_denumire = row[index_col]
-			case 4:
-				// row[index_col] = strings.Replace(row[index_col], "\n", " ", -1)
-				// row[index_col] = strings.Replace(row[index_col], "\r", " ", -1)
+			case 3:
 				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Obiectivul_specific = row[index_col]
-			case 5:
+			case 4:
 				documente[index_col].Activitati_finante = convertToCorrectType(row[index_col])
-			case 6:
+			case 5:
 				documente[index_col].Beneficiari_eligibili = convertToCorrectType(row[index_col])
-			case 7:
+			case 6:
 				documente[index_col].Beneficiari_finali = convertToCorrectType(row[index_col])
-			case 8:
+			case 7:
 				documente[index_col].Indicatori = convertToCorrectType(row[index_col])
-			case 9:
+			case 8:
 				documente[index_col].Beneficii = convertToCorrectType(row[index_col])
-			case 10:
+			case 9:
 				documente[index_col].Provocari = convertToCorrectType(row[index_col])
+			case 10:
+				row[index_col] = removeRedundantWhitespace(row[index_col])
+				documente[index_col].Data_stabilita = row[index_col]
 			case 11:
-				// row[index_col] = strings.Replace(row[index_col], "\n", "", -1)
-				// row[index_col] = strings.Replace(row[index_col], "\r", "", -1)
 				row[index_col] = removeRedundantWhitespace(row[index_col])
 				documente[index_col].Link = row[index_col]
 			}
@@ -188,7 +176,7 @@ func appendIfUniqueVal(element string, mapList map[string][]string, key string) 
 func genColOptions(full_data []Document) map[string][]string {
 	unique_values := make(map[string][]string)
 	for _, document := range full_data {
-		appendIfUniqueVal(document.Obiectiv_politica, unique_values, "Obiectiv_politica")
+		appendIfUniqueVal(document.Data_stabilita, unique_values, "Data_stabilita")
 		appendIfUniqueVal(document.Titlu, unique_values, "Titlu")
 		appendIfUniqueVal(document.Prioritate_nr, unique_values, "Prioritate_nr")
 		appendIfUniqueVal(document.Prioritate_denumire, unique_values, "Prioritate_denumire")
