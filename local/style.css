@@ -12,7 +12,12 @@ body {
 }
 
 main .container {
-  padding: 5.125rem;
+  @media screen and (min-width: 1200px) {
+    padding: 5.125rem;
+  }
+  @media screen and (max-width: 992px) {
+    padding-top: 3.125rem;
+  }
 }
 
 .form-check-input:checked {
