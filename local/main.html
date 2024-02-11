@@ -8,7 +8,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
   <script src="getters.js"></script>
   <script src="index.js"></script>
-  
+
   <link href="
   https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -21,117 +21,107 @@
     <div class="container" x-data x-init="$store.data.load()">
       <!-- Form -->
       <template x-if="$store.data.current_option_index != $store.data.col_options.length - 1">
-        <div class="row gap-0">
+        <div class="bg-white g-0 gap-0 p-3 rounded-3 border row position-relative">
           <!-- Title -->
-          <div class="mx-n3 px-3 border-bottom">
-            <h4 class="mb-0" x-text="$store.data.current_option_select.name"></h4>
+          <div>
+            <h4 class="mb-3" x-text="$store.data.current_option_select.name"></h4>
+            <div class="border-bottom w-100 position-absolute" style="left: 0;"></div>
           </div>
           <!-- Content -->
-          <template 
-            x-for="(option, index) in $store.data.current_option_select.options"
-          >
+          <template x-for="(option, index) in $store.data.current_option_select.options">
             <div class="mt-3">
               <div class="form-check">
                 <label class="form-check-label" x-text="option.value"
-                      x-bind:id="('default-checkbox' + index + option.value.split(' ').join('-'))"
-                      x-on:click="option.checked = !option.checked"
-                ></label>
+                  x-bind:id="('default-checkbox' + index + option.value.split(' ').join('-'))"
+                  x-on:click="option.checked = !option.checked"></label>
                 <input class="form-check-input" type="checkbox"
-                      x-bind:for="('default-checkbox' + index + option.value.split(' ').join('-'))"
-                      x-model="option.checked"
-                >
+                  x-bind:for="('default-checkbox' + index + option.value.split(' ').join('-'))"
+                  x-model="option.checked">
               </div>
             </div>
           </template>
 
           <!-- buttons Next/Previuos/Results -->
-          <template x-if="$store.data.current_option_index != $store.data.col_options.length - 2 ">
-            <button class="btn btn-success my-3"
-              x-on:click="
-                $store.data.next_option();
-                $store.data.get_form_options();
-                console.log($store.data.current_option_index)
-              "
-            >
-              Next
-            </button>
-          </template>
-            
-          <template x-if="$store.data.current_option_index == $store.data.col_options.length - 2">
-            <button 
-              class="btn btn-success my-3"
-              x-on:click="
-                $store.data.next_option();
-                $store.data.get_form_options();
-                console.log($store.data.col_options);
-              "
-            >
-                Results
-            </button>
-          </template>
-
-          <template x-if="$store.data.current_option_index != 0">
-            <button class="btn btn-success my-3"
-              x-on:click="
-                $store.data.previous_option();
-              "
-            >
-              Previous
-            </button>
-          </template>
-        </div>
-      </template>
-      
-      <!-- Results -->
-      <template x-if="$store.data.current_option_index == $store.data.col_options.length - 1">
-        <div>
-          <div class="mx-n3 py-3 px-4 border-bottom">
-            <h3 class="mb-0">Rezultate</h1>
-          </div>
-          <div class="d-grid px-2 gap-4">
-            <template x-for="data in $store.data.form_result">
-              <div class="border-bottom py-4">
-                <!-- item title -->
-                <div class="d-flex align-items-center">
-                  <!-- icon item wrapper  -->
-                  <div class="me-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                      <path d="M44 27H4L1 23L5 19H43L47 23L44 27Z" fill="#870000" />
-                      <path
-                        d="M41 47H7C5.895 47 5 46.105 5 45V3C5 1.895 5.895 1 7 1H31L43 13V45C43 46.105 42.105 47 41 47Z"
-                        fill="#E6E6E6" />
-                      <path d="M31 1V11C31 12.105 31.895 13 33 13H43L31 1Z" fill="#B3B3B3" />
-                      <path d="M45 41H3C1.895 41 1 40.105 1 39V23H47V39C47 40.105 46.105 41 45 41Z" fill="#BD0100" />
-                      <path
-                        d="M20.071 30.645C20.071 31.523 19.812 32.201 19.295 32.678C18.777 33.157 18.043 33.395 17.09 33.395H16.494V36H14.372V28.147H17.09C18.082 28.147 18.827 28.364 19.324 28.796C19.822 29.23 20.071 29.847 20.071 30.645ZM16.494 31.666H16.881C17.2 31.666 17.453 31.576 17.641 31.396C17.829 31.217 17.923 30.97 17.923 30.656C17.923 30.126 17.63 29.861 17.042 29.861H16.494V31.666Z"
-                        fill="white" />
-                      <path
-                        d="M27.988 31.907C27.988 33.218 27.627 34.227 26.905 34.936C26.184 35.646 25.17 36 23.863 36H21.322V28.147H24.04C25.3 28.147 26.273 28.469 26.959 29.114C27.645 29.759 27.988 30.689 27.988 31.907ZM25.786 31.982C25.786 31.262 25.644 30.729 25.359 30.381C25.075 30.033 24.642 29.86 24.062 29.86H23.444V34.258H23.917C24.562 34.258 25.034 34.07 25.335 33.696C25.636 33.322 25.786 32.752 25.786 31.982Z"
-                        fill="white" />
-                      <path d="M31.484 36H29.395V28.147H34.036V29.849H31.485V31.348H33.838V33.05H31.485V36H31.484Z"
-                        fill="white" />
-                    </svg>
-                  </div>
-                  <!-- item title -->
-                  <h4 class="mb-0" x-text="data.Titlu"></h2>
-                </div>
-                <!-- item button -->
-                <a x-bind:href="data.Link">
-                  <button class="btn btn-download rounded-pill">
-                    Deschide document
-                  </button>
-                </a>
-              </div>
+          <div class="d-flex gap-4 mt-4">
+            <template x-if="$store.data.current_option_index != 0">
+              <button class="btn btn-success" x-on:click="
+        $store.data.previous_option();">
+                Previous
+              </button>
             </template>
+
+            <template x-if="$store.data.current_option_index != $store.data.col_options.length - 2 ">
+              <button class="btn btn-success" x-on:click="
+                  $store.data.next_option();
+                  $store.data.get_form_options();
+                  console.log($store.data.current_option_index)
+                ">
+                Next
+              </button>
+            </template>
+
+            <template x-if="$store.data.current_option_index == $store.data.col_options.length - 2">
+              <button class="btn btn-success" x-on:click="
+        $store.data.next_option();
+        $store.data.get_form_options();
+        console.log($store.data.col_options);">
+                Results
+              </button>
+            </template>
+
+
           </div>
-          <button
-            class="btn btn-success my-3"
-            x-on:click="$store.data.reset_form()"
-          >
-              Refa formular
-          </button>
-        </div>
       </template>
+    </div>
+
+    <!-- Results -->
+    <template x-if="$store.data.current_option_index == $store.data.col_options.length - 1">
+      <div>
+        <div class="mx-n3 py-3 px-4 border-bottom">
+          <h3 class="mb-0">Rezultate</h1>
+        </div>
+        <div class="d-grid px-2 gap-4">
+          <template x-for="data in $store.data.form_result">
+            <div class="border-bottom py-4">
+              <!-- item title -->
+              <div class="d-flex align-items-center">
+                <!-- icon item wrapper  -->
+                <div class="me-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                    <path d="M44 27H4L1 23L5 19H43L47 23L44 27Z" fill="#870000" />
+                    <path
+                      d="M41 47H7C5.895 47 5 46.105 5 45V3C5 1.895 5.895 1 7 1H31L43 13V45C43 46.105 42.105 47 41 47Z"
+                      fill="#E6E6E6" />
+                    <path d="M31 1V11C31 12.105 31.895 13 33 13H43L31 1Z" fill="#B3B3B3" />
+                    <path d="M45 41H3C1.895 41 1 40.105 1 39V23H47V39C47 40.105 46.105 41 45 41Z" fill="#BD0100" />
+                    <path
+                      d="M20.071 30.645C20.071 31.523 19.812 32.201 19.295 32.678C18.777 33.157 18.043 33.395 17.09 33.395H16.494V36H14.372V28.147H17.09C18.082 28.147 18.827 28.364 19.324 28.796C19.822 29.23 20.071 29.847 20.071 30.645ZM16.494 31.666H16.881C17.2 31.666 17.453 31.576 17.641 31.396C17.829 31.217 17.923 30.97 17.923 30.656C17.923 30.126 17.63 29.861 17.042 29.861H16.494V31.666Z"
+                      fill="white" />
+                    <path
+                      d="M27.988 31.907C27.988 33.218 27.627 34.227 26.905 34.936C26.184 35.646 25.17 36 23.863 36H21.322V28.147H24.04C25.3 28.147 26.273 28.469 26.959 29.114C27.645 29.759 27.988 30.689 27.988 31.907ZM25.786 31.982C25.786 31.262 25.644 30.729 25.359 30.381C25.075 30.033 24.642 29.86 24.062 29.86H23.444V34.258H23.917C24.562 34.258 25.034 34.07 25.335 33.696C25.636 33.322 25.786 32.752 25.786 31.982Z"
+                      fill="white" />
+                    <path d="M31.484 36H29.395V28.147H34.036V29.849H31.485V31.348H33.838V33.05H31.485V36H31.484Z"
+                      fill="white" />
+                  </svg>
+                </div>
+                <!-- item title -->
+                <h4 class="mb-0" x-text="data.Titlu">
+                  </h2>
+              </div>
+              <!-- item button -->
+              <a x-bind:href="data.Link">
+                <button class="btn btn-download rounded-pill">
+                  Deschide document
+                </button>
+              </a>
+            </div>
+          </template>
+        </div>
+        <button class="btn btn-success my-3" x-on:click="$store.data.reset_form()">
+          Refa formular
+        </button>
+      </div>
+    </template>
 
     </div>
   </main>
