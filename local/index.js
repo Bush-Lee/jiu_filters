@@ -152,5 +152,6 @@ async function load_col_options() {
       options: data[key],
     });
   }
+  
   Alpine.store("data").col_options = strucure_data;
 }
