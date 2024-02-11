@@ -98,7 +98,7 @@ document.addEventListener("alpine:init", async () => {
  
      // Page option parser
      next_option() {
-       this.current_option_index += this.col_options.length - 1;
+       this.current_option_index += 1;
        // TODO: Handle special cases
        this.current_option_select = this.col_options[this.current_option_index];
      },
