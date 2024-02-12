@@ -53,7 +53,6 @@
               <button class="btn btn-success" x-on:click="
                   $store.data.next_option();
                   $store.data.get_form_options();
-                  console.log($store.data.current_option_index)
                 ">
                 Next
               </button>
@@ -61,7 +60,7 @@
 
             <template x-if="$store.data.current_option_index == $store.data.col_options.length - 2">
               <button class="btn btn-success"
-                x-on:click="$store.data.next_option();$store.data.get_form_options();console.log($store.data.col_options);">
+                x-on:click="$store.data.next_option();$store.data.get_form_options();">
                 Results
               </button>
             </template>
@@ -79,7 +78,7 @@
             <template x-for="data in $store.data.form_result">
               <div class="border-bottom py-4">
                 <!-- item title -->
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center mb-3">
                   <!-- icon item wrapper  -->
                   <div class="me-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
@@ -101,10 +100,10 @@
                   </div>
                   <!-- item title -->
                   <h4 class="mb-0" x-text="data.Titlu">
-                    </h2>
+                  </h4>
                 </div>
                 <!-- item button -->
-                <a x-bind:href="data.Link">
+                <a x-bind:href="data.Link" target="_blank">
                   <button class="btn btn-download rounded-pill">
                     Deschide document
                   </button>

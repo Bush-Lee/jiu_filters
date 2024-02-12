@@ -55,17 +55,13 @@ document.addEventListener("alpine:init", async () => {
     calculate_form_results(checked_options) {
       result = new Array();
       for (const file of this.all_files) {
-        // Tot rahatul asta de if ii inutil, dar mi-e lene sa si verific
-        // ar trebui sa ai doar pushul
-        result_index = find_index_by_key(result, file);
-        if (result_index == -1) {
-          result.push({
-            file: file,
-            i: 0,
-          });
+        result.push({
+          file: file,
+          i: 0,
+        });
 
-          result_index = result.length - 1;
-        }
+        result_index = result.length - 1;
+        
 
         for (let key in file) {
           if (key == "Link") {
@@ -98,27 +94,16 @@ document.addEventListener("alpine:init", async () => {
 
     // Page option parser
     next_option() {
-      this.current_option_index += this.col_options.length - 1;
-      // TODO: Handle special cases
+      this.current_option_index += 1;
       this.current_option_select = this.col_options[this.current_option_index];
     },
 
     previous_option() {
-      // TODO: Handle special cases
       this.current_option_index -= 1;
       this.current_option_select = this.col_options[this.current_option_index];
     },
   });
 });
-
-function find_index_by_key(list, key) {
-  for (let i = 0; i < list.length; i++) {
-    if (list[i].key === key) {
-      return i;
-    }
-  }
-  return -1; // Return -1 if the key is not found in any object
-}
 
 function find_key_by_value(obj, x) {
   for (const key in obj) {
@@ -151,7 +136,6 @@ async function load_col_options() {
   col_names = col_names[0];
 
   for (key in col_names) {
-    // TODO: Handle Link properly
     if (key == "Link") {
       continue;
     }
@@ -168,5 +152,6 @@ async function load_col_options() {
       options: data[key],
     });
   }
+  
   Alpine.store("data").col_options = strucure_data;
 }
